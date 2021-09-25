@@ -1,1 +1,55 @@
-
+<html>
+  <head>
+    <title> Form_Cultivos </title>
+    <link rel="stylesheet" type="text/css" href="Style/estilo_form_cultivos.css" />
+    
+    <meta charset="utf-8" />
+		<meta name="description" content="Es una moderna plataforma para el aprendizaje online" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/42ec7ee6fe.js" crossorigin="anonymous"></script>
+    
+  </head>
+  
+  <body>
+    <form action="registro_cultivos.php" method="post" class="form-cultivos">
+	    <h2 class="titulo-form-cultivos"> CULTIVOS </h2>
+      	<div class="contenedor-input">
+	<table class="tabla-cultivos" border="1">
+		<tr>
+			<td class="celda-Id_Cosecha"> Id_Cosecha: </td>
+			<td> <input type="text" class="input-50" placeholder="Codigo Cosecha"></td>	
+		</tr>
+		<tr>
+			<td class="celda-Mes_Cosecha"> Mes_Cosecha: </td>
+			<td> <input type="text" class="input-50" placeholder="Mes Cosecha"></td>	
+		</tr>
+    <tr>
+			<td class="celda-Unidad_Medida"> Unidad_Medida: </td>
+			<td> <input type="text" class="input-50" placeholder="Unidad Medida"></td>	
+		</tr>
+    <tr>
+			<td class="celda-Id_Cultivo"> Id_Cultivo: </td>
+			<td> <input type="text" class="input-50" placeholder="Codigo Cultivo"></td>	
+		</tr>
+	</table>
+	<table class="tabla-botones" border="1">
+		<tr>
+			<td colspan="3"> <input type="submit" value="Insertar" class="btn-Insertar">
+				<input type="submit" value="Modificar" class="btn-Modificar">
+				<input type="submit" value="Buscar" class="btn-Buscar">
+				<input type="submit" value="Eliminar" class="btn-Eliminar">
+				<input type="submit" value="Limpiar" class="btn-Limpiar">
+				<input type="submit" value="Retornar" class="btn-Retornar">
+			</td>	
+		</tr>
+	</table>
+	     
+	</div>
+    </form>
+    
+  </body>
+  
+  
+</html>
