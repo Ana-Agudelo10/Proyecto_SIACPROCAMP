@@ -36,9 +36,9 @@ font-family: 'Open Sans', sans-serif;
   left: 235px;
 }
 
-.nav{
+nav:hover{
   font-size:15px;	
-  margin: 10px 10px 0 0;
+  margin: 10px 10px 10px 10px;
   position: unset;
   background: none;
   height: auto;
@@ -46,26 +46,20 @@ font-family: 'Open Sans', sans-serif;
   border: none;
 }
 
-nav_link:hover{
-  font-size:15px;
-  margin: 10px 10px 10px 10px;
+.nav_link{
   background: #02C8B0;
   color: white;
   padding: 5px;
   border-radius: 5px;
 }
-nav_link_palote:hover{
-  font-size:15px;
-  margin: 10px 10px 10px 10px;
+.nav_link_palote{
   background: #02C8B0;
   color: white;
   padding: 5px;
   border-radius: 3px;
 }
 
-nav_link_button:hover{
-  font-size:15px;
-  margin: 10px 10px 10px 10px;
+.nav_link_button{
   background: #02C8B0;
   color: white;
   padding: 5px;
