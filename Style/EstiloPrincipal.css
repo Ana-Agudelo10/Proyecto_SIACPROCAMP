@@ -183,7 +183,9 @@ label{
   text-align: center;
 }
 
-.btn_municipios {
+.btn_municipios:hover {
+  font-size:15px;	
+  margin: 15px 15px 15px 15px;
   background: #028D6A;
   color: #fff;
   margin: auto;
