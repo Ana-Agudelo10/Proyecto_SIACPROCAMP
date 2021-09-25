@@ -14,10 +14,7 @@ body {
 }
 
 .form-municipio{
-  display:flex;
-  justyfy-content: flex-center;
   width: 60%;
-  padding: 10px;
   max-width: 500px;
   background: #32AB6F;
   border-radius: 7px;
@@ -44,6 +41,8 @@ body {
 }
 
 .tabla-municipios {
+  display:flex;
+  justyfy-content: flex-center;
   margin: center;
   text-align: left;
   border: 1px outset #000000;
