@@ -37,7 +37,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 nav:hover{
-  font-size:23px;	
+  font-size:15px;	
   margin: 10px 10px 0 0;
   position: unset;
   background: none;
@@ -46,13 +46,15 @@ nav:hover{
   border: none;
 }
 
-.nav_link{
+nav_link:hover{
+  font-size:15px;
   background: #02C8B0;
   color: white;
   padding: 5px;
   border-radius: 5px;
 }
-.nav_link_palote{
+nav_link_palote:hover{
+  font-size:15px;
   background: #02C8B0;
   color: white;
   padding: 5px;
