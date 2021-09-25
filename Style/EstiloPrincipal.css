@@ -61,20 +61,20 @@ nav:hover{
 .nav_link{
   background: #02C8B0;
   color: white;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 .nav_link_palote{
   background: #02C8B0;
   color: white;
-  padding: 5px;
+  padding: 10px;
   border-radius: 3px;
 }
 
 .nav_link_button{
   background: #02C8B0;
   color: white;
-  padding: 5px;
+  padding: 10px;
   border-radius: 3px; 
 }
 
